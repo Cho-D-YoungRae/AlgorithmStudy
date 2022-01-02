@@ -1,6 +1,7 @@
-#### Chapter 11. 그리디 문제
+# Chapter 11. 그리디 문제
 
-###### 1. 모험가 길드 (311pg)
+## 1. 모험가 길드 (311pg)
+
 ```python
 if __name__ == '__main__':
     N = int(input())
@@ -27,8 +28,39 @@ if __name__ == '__main__':
     print(result)
 ```
 
+## 1. 모험가 길드 (311pg) - java
 
-###### 2. 곱하기 혹은 더하기 (312pg)
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        List<Integer> adventurers = new ArrayList<>(N);
+        for (int i = 0; i < N; i++) {
+            adventurers.add(sc.nextInt());
+        }
+        adventurers.sort(Collections.reverseOrder());
+
+        int numGroups = 0;
+        int idx = 0;
+        while (idx < N) {
+            int fearScale = adventurers.get(idx);
+            idx += fearScale;
+            if ((idx - 1) < N) {
+                numGroups++;
+            }
+        }
+        System.out.println(numGroups);
+    }
+}
+
+```
+
+## 2. 곱하기 혹은 더하기 (312pg)
+
 ```python
 if __name__ == '__main__':
     # 입력받은 문자열 숫자 하나씩 분리해서 리스트에 저장
@@ -48,7 +80,8 @@ if __name__ == '__main__':
     print(result)
 ```
 
-**오답정리**
+### 오답정리
+
 ```python
 if __name__ == '__main__':
     S = list(map(int, input()))
@@ -64,16 +97,69 @@ if __name__ == '__main__':
     print(result)
 ```
 
+### 2. 곱하기 혹은 더하기 (312pg) - java
 
-###### 4. 만들 수 없는 금액 \*
-**오답정리**
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String S = sc.nextLine();
+        int result = 0;
+        for (char numChar: S.toCharArray()) {
+            int num = Character.getNumericValue(numChar);
+            if (result > 1 && num > 1) {
+                result *= num;
+            } else {
+                result += num;
+            }
+        }
+        System.out.println(result);
+    }
+}
+```
+
+## 4. 만들 수 없는 금액 \*
+
+### 오답정리
+
 화폐 단위를 기준으로 오름차순 정렬한다. 이후에 1부터 차례대로 특정한 금액을 만들 수 있는지 확인하면 된다. 1부터 target - 1까지의 모든 금액을 만들 수 있다고 가정해보자. 우리는 화폐 단위가 작은 순서대로 동전을 확인하며, 현재 확인하는 동전을 이용해 target 금액 또한 만들 수 있는지 확인하면 된다.
 예를 들어 1, 2, 3 동전이 있을 때 1~6까지 만들 수 있으면, 1, 2, 3, 5 동전이 주어지면 6 + 5 = 11 까지 만들 수 있다. 이렇게 차례대로 동전을 확인하고 target 값을 업데이트 해준다.
 
-[교재코드](.\python-for-coding-test-master\11\4.py)
+### My Solution - java
 
+```java
+import java.util.*;
 
-###### 5. 볼링공 고르기
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int[] coins = new int[N];
+        for (int i = 0; i < N; i++) {
+            coins[i] = sc.nextInt();
+        }
+        Arrays.sort(coins);
+
+        int result = 0;
+        for (int coin: coins) {
+            if (result == 0 || result >= coin) {
+                result += coin;
+            } else {
+                break;
+            }
+        }
+        result++;
+        System.out.println(result);
+    }
+}
+```
+
+## 5. 볼링공 고르기
+
 ```python
 if __name__ == '__main__':
     N, M = map(int, input().split())
@@ -95,9 +181,10 @@ if __name__ == '__main__':
         result += (count * (len(weights) - idx))
 
     print(result)
-```    
+```
 
 Counter를 이용
+
 ```python
 if __name__ == '__main__':
     N, M = map(int, input().split())
@@ -110,3 +197,35 @@ if __name__ == '__main__':
 
     print(result)
 ```
+
+## 5. 볼링공 고르기 - java \*
+
+> 위 풀이가 더 좋음...
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt(), M = sc.nextInt();
+        int[] ballCountsByWeight = new int[M + 1];
+        for (int i = 0; i < N; i++) {
+            int ballWeight = sc.nextInt();
+            ballCountsByWeight[ballWeight]++;
+        }
+
+        int result = 0;
+        for (int i = 2; i <= M; i++) {
+            int aI = ballCountsByWeight[i];
+            int aPrevSum = 0;
+            for (int j = 1; j < i; j++) {
+                aPrevSum += ballCountsByWeight[j];
+            }
+            result += aI * aPrevSum;
+        }
+
+        System.out.println(result);
+    }
+}

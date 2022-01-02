@@ -1,6 +1,7 @@
-#### Chapter 04. 구현
-###### 상하좌우 (110pg)
-python
+# Chapter 04. 구현
+
+## 상하좌우 (110pg)
+
 ```python
 if __name__ == '__main__':
     # 입력에 따른 이동 방향
@@ -23,16 +24,17 @@ if __name__ == '__main__':
     print(my_y, my_x)
 ```
 
-###### 시각 (113pg) - python \*
-**My idear**
+## 시각 (113pg) - python \*
+
+**My idea**
 0시부터 쭉 시간당 몇 카운트인지 미리 직접 계산 후 더해나가려했다.
 그러다보니 실수가 발생
 
 **교재 아이디어**
 시, 분, 초 이렇게 3중 반복문을 사용하였다. 3중 반복문이지만 최대 24*60*60 = 86400 이고 이정도는 충분히 돌아갈 수 있다.
 
-###### 2. 왕실의 나이트 (115pg)
-python
+## 2. 왕실의 나이트 (115pg)
+
 ```python
 if __name__ == '__main__':
     my_pos = input()
@@ -51,8 +53,10 @@ if __name__ == '__main__':
     print(result)
 ```
 
-###### 3. 게임 개발 (118pg) \*
+## 3. 게임 개발 (118pg) \*
+
 **첫 풀이 - python**
+
 ```python
 def is_in_range_pos(y, x, N, M) -> bool:
     return 0 <= y <= N and 0 <= x <= M
@@ -89,6 +93,7 @@ if __name__ == '__main__':
 
     print(result)
 ```
+
 input
 > 4 4
 1 1 0
