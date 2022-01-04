@@ -24,13 +24,58 @@ if __name__ == '__main__':
     print(my_y, my_x)
 ```
 
-## 시각 (113pg) - python \*
+## 상하좌우 (110pg) - java
 
-**My idea**
+> 2022/01/04
+
+```java
+import java.util.*;
+
+public class Main {
+
+    static boolean isAvailableMove(int[] curLoc, int[] move, int N) {
+        int[] movedLoc = new int[]{curLoc[0] + move[0], curLoc[1] + move[1]};
+        boolean isYAvailable = 0 <= movedLoc[0] && movedLoc[0] < N;
+        boolean isXAvailable = 0 <= movedLoc[1] && movedLoc[1] < N;
+
+        return isXAvailable && isYAvailable;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        sc.nextLine();
+        String[] movePlans = sc.nextLine().split(" ");
+        Map<String, int[]> plan2Move = Map.of(
+                "R", new int[]{0, 1},
+                "L", new int[]{0, -1},
+                "U", new int[]{-1, 0},
+                "D", new int[]{1, 0}
+        );
+
+        int[] curLocation = new int[]{0, 0};
+        Arrays.stream(movePlans).forEach((moveplan) -> {
+            int[] move = plan2Move.get(moveplan);
+            if (isAvailableMove(curLocation, move, N)) {
+                curLocation[0] += move[0];
+                curLocation[1] += move[1];
+            }
+        });
+
+        System.out.println((curLocation[0] + 1)  + " " + (curLocation[1] + 1));
+    }
+}
+```
+
+## 시각 (113pg) - python \#
+
+### My idea
+
 0시부터 쭉 시간당 몇 카운트인지 미리 직접 계산 후 더해나가려했다.
 그러다보니 실수가 발생
 
-**교재 아이디어**
+### 교재 아이디어
+
 시, 분, 초 이렇게 3중 반복문을 사용하였다. 3중 반복문이지만 최대 24*60*60 = 86400 이고 이정도는 충분히 돌아갈 수 있다.
 
 ## 2. 왕실의 나이트 (115pg)
@@ -53,9 +98,9 @@ if __name__ == '__main__':
     print(result)
 ```
 
-## 3. 게임 개발 (118pg) \*
+## 3. 게임 개발 (118pg) \#
 
-**첫 풀이 - python**
+### try 1
 
 ```python
 def is_in_range_pos(y, x, N, M) -> bool:
@@ -106,10 +151,12 @@ output
 > 2
 
 오답 요인
+
 1. 문제를 제대로 이해하지 못 했다.
 2. 네 방향 모두 이미 가본 칸이거나 바다이면 바라보는 방향의 뒤로 한 칸 이동하게 되는데 이 때 이동하는 칸을 세지 못했다.
 
-**두 번째 풀이**
+### My Solution 1
+
 ```python
 def is_in_range_pos(y, x, N, M) -> bool:
     return 0 <= y <= N and 0 <= x <= M
@@ -151,10 +198,12 @@ if __name__ == '__main__':
 
     print(result)
 ```
+
 어찌어찌 답은 나오는 것 같다. 깔끔하게 고쳐보자
 
 
-**My Solution #3** - python
+### My Solution 1-2
+
 ```python
 if __name__ == '__main__':
     N, M = map(int, input().split())
@@ -214,4 +263,4 @@ if __name__ == '__main__':
                 break
 
     print(result)
-```    
+```
