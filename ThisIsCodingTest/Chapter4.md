@@ -78,7 +78,55 @@ public class Main {
 
 시, 분, 초 이렇게 3중 반복문을 사용하였다. 3중 반복문이지만 최대 24*60*60 = 86400 이고 이정도는 충분히 돌아갈 수 있다.
 
+### My Solution
+
+> 2022/01/04
+
+```java
+import java.util.*;
+
+public class Main {
+    static boolean isThreeContainer(int num) {
+        boolean isInTen = (num / 10 == 3);
+        boolean isInOne = (num % 10 == 3);
+        return isInOne || isInTen;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        // 1분 동안 나타나는 3이 하나라도 포함된 경우 계산
+        int countInMinute = 0;
+        for (int s = 0; s < 60; s++) {
+            if (isThreeContainer(s)) {
+                countInMinute++;
+            }
+        }
+        // 1시간 동안 나타나는 경우 계산
+        int countInHour = 0;
+        for (int m = 0; m < 60; m++) {
+            if (isThreeContainer(m)) {
+                countInHour += 60;
+            } else {
+                countInHour += countInMinute;
+            }
+        }
+        // 정답 계산
+        int result = 0;
+        for (int h = 0; h <= N; h++) {
+            if (isThreeContainer(h)) {
+                result += 60 * 60;
+            } else {
+                result += countInHour;
+            }
+        }
+        System.out.println(result);
+    }
+}
+```
+
 ## 2. 왕실의 나이트 (115pg)
+
+### My Solution 1
 
 ```python
 if __name__ == '__main__':
@@ -96,6 +144,45 @@ if __name__ == '__main__':
             result += 1
 
     print(result)
+```
+
+### My Solution 2 - java
+
+> 2022/01/05
+
+```java
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        final int GARDEN = 8;
+        String knightLocStr = sc.nextLine();
+        int[] knightLoc = new int[]{
+                knightLocStr.charAt(1) - '1',
+                knightLocStr.charAt(0) - 'a'
+        };
+
+        int[][] moves = new int[][] {
+                {2, 1}, {2, -1}, {-2, 1}, {-2, -1},
+                {1, 2}, {1, -2}, {-1, 2}, {-1, -2}
+        };
+
+        int result = 0;
+        for (int[] move : moves) {
+            int[] moved = new int[] {
+                    knightLoc[0] + move[0], knightLoc[1] + move[1]};
+            boolean isRowAvailable = 0 <= moved[0] && moved[0] < GARDEN;
+            boolean isColAvailable = 0 <= moved[1] && moved[1] < GARDEN;
+            if (isRowAvailable && isColAvailable) {
+                result++;
+            }
+        }
+
+        System.out.println(result);
+    }
+}
 ```
 
 ## 3. 게임 개발 (118pg) \#
@@ -264,3 +351,85 @@ if __name__ == '__main__':
 
     print(result)
 ```
+
+### My Solution 3
+
+> 2022/01/05
+
+```java
+import java.util.*;
+
+public class Main {
+
+    static boolean isAvailableMove(List<List<Integer>> gameMap, int[] myPos, int[] movement) {
+        int[] movedPos = new int[] {myPos[0] + movement[0], myPos[1] + movement[1]};
+        boolean isRowAvailable = 0 <= movedPos[0] && movedPos[0] < gameMap.size();
+        boolean isColAvailable = 0 <= movedPos[1] && movedPos[1] < gameMap.get(0).size();
+        boolean isNotBeen = gameMap.get(movedPos[0]).get(movedPos[1]) == 0;
+
+        return isColAvailable && isRowAvailable && isNotBeen;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[][] movements = new int[][]{
+                {-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+        int N = sc.nextInt(), M = sc.nextInt();
+        List<List<Integer>> gameMap = new ArrayList<>(N);
+        int[] myPos = new int[]{sc.nextInt(), sc.nextInt()};
+        int d = sc.nextInt();
+        for (int i = 0; i < N; i++) {
+            gameMap.add(new ArrayList<>(M));
+            for (int j = 0; j < M; j++) {
+                gameMap.get(i).add(sc.nextInt());
+            }
+        }
+        // 방문한 장소 = 2
+        gameMap.get(myPos[0]).set(myPos[1], 2);
+
+        while (true) {
+            boolean isNotMoved = true;
+            // 회전
+            for (int r = 0; r < 4; r++) {
+                d = (d + 3) % 4;
+                int[] movement = movements[d];
+                if (isAvailableMove(gameMap, myPos, movement)) {
+                    isNotMoved = false;
+                    myPos[0] = myPos[0] + movement[0];
+                    myPos[1] = myPos[1] + movement[1];
+                    gameMap.get(myPos[0]).set(myPos[1], 2);
+                    break;
+                }
+            }
+            if (isNotMoved) {
+                int[] movement = movements[(d + 2) % 4];
+                if (isAvailableMove(gameMap, myPos, movement)) {
+                    isNotMoved = false;
+                    myPos[0] = myPos[0] + movement[0];
+                    myPos[1] = myPos[1] + movement[1];
+                    gameMap.get(myPos[0]).set(myPos[1], 2);
+                }
+            }
+            if (isNotMoved) {
+                break;
+            }
+        }
+
+        int result = 0;
+        for (List<Integer> rowMap: gameMap) {
+            for (int e: rowMap) {
+                if (e == 2) {
+                    result++;
+                }
+            }
+
+        }
+
+        System.out.println(result);
+    }
+}
+```
+
+- 너무 지저분하게 푼 듯..
+- 불필요하면 굳이 List가 아니라 배열로 푸는게 더 낫나?
+- 자바언어에 더 익숙해질 필요...
