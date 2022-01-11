@@ -22,6 +22,10 @@
 - [음료수 얼려먹기](Chapter5/음료수_얼려먹기.md)
 - [미로 탈출](Chapter5/미로_탈출.md)
 
+### Chapter 06. 정렬
+
+- [위에서 아래로](Chapter6/위에서_아래로.md)
+
 ## PART 03 알고리즘 유형별 기출문제
 
 - [Chapter 11. 그리디 문제](Chapter11.md)
