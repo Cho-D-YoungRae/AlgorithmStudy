@@ -6,3 +6,4 @@
 - [에라토스테네스의 체](Sieve_of_Eratosthenes.md)
 - [투 포인터](Two_Pointers.md)
 - [정규표현식](regex.md)
+- [Parametric Search](parametric_search.md)
