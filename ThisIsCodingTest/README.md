@@ -42,6 +42,8 @@
 - [ ] [바닥 공사\#](Chapter8/바닥_공사.md)
 - [효율적인 화폐 구성](Chapter8/효율적인_화폐_구성.md)
 
+### [Chapter 09. 최단 경로](Chapter9/README.md)
+
 ## PART 03 알고리즘 유형별 기출문제
 
 - [Chapter 11. 그리디 문제](Chapter11.md)
