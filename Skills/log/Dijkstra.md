@@ -1,8 +1,17 @@
-#### Dijkstra
----
+# Dijkstra (다익스트라)
+
+## 알고리즘 원리
+
+1. 출발 노드를 설정한다.
+2. 최단 거리 테이블을 초기화한다.
+3. **방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택한다.**
+4. **해당 노드를 거쳐 다른 노드로 가는 비용을 계산하여 최단 거리 테이블을 갱신한다.**
+5. 위 과정에서 3과 4번을 반복한다.
 
 - 최단 거리를 계산
 - 음의 무게를 가진 간선에 대해 작동하지 않는다
+
+## 의사 코드
 
 ```
 function Dijkstra(Graph, source):
@@ -29,7 +38,67 @@ function Dijkstra(Graph, source):
     return dist, prev
 ```
 
-###### leetcode 743
+```java
+import java.util.*;
+
+class Node implements Comparable<Node> {
+
+    private final int index;
+
+    private final int distance;
+
+    public Node(int index, int distance) {
+        this.index = index;
+        this.distance = distance;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public int getDistance() {
+        return distance;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return this.distance - o.distance;
+    }
+}
+
+public class Main {
+
+    // 그래프의 각 i 번째 리스트에는 다른 노드로 향하는 노드들이 들어있음
+    public static int[] dijkstra(List<List<Node>> graph, int start) {
+        int[] d = new int[graph.size() + 1];
+        Arrays.fill(d, Integer.MAX_VALUE);
+        PriorityQueue<Node> pq = new PriorityQueue<>();
+        pq.offer(new Node(start, 0));
+        d[start] = 0;
+
+        while (!pq.isEmpty()) {
+            Node node = pq.poll();
+            int curIdx = node.getIndex();
+            if (d[curIdx] < node.getDistance()) {
+                continue;
+            }
+
+            for (int i = 0; i < graph.get(curIdx).size(); i++) {
+                int cost = d[curIdx] + graph.get(curIdx).get(i).getDistance();
+                int nextIdx = graph.get(curIdx).get(i).getIndex();
+                if (cost < d[nextIdx]) {
+                    d[nextIdx] = cost;
+                    pq.offer(new Node(nextIdx, cost));
+                }
+            }
+        }
+
+        return d;
+    }
+}
+```
+
+## leetcode 743
 
 ```python
 import collections
@@ -64,4 +133,4 @@ class Solution:
         if len(dist) == N:
             return max(dist.values())
         return -1
-```        
+```
