@@ -95,6 +95,44 @@ public class Main {
 
         return d;
     }
+
+    /**
+    * 위 다익스트라 메서드가 메모리 초과 날 때 아래 메서드를 사용하니 해결되었음 
+    * 다익스트라 메서드 내에서 visited 배열을 사용하지 않을 경우
+    * Node 의 distance (weight) 가 같은 경우에 대해서 중복이 허용됨
+    */
+    public static int[] dijkstra_UsingVisitedArr(List<List<Node>> graph, int start) {
+        int[] cost = new int[graph.size()];
+        Arrays.fill(cost, Integer.MAX_VALUE);
+        cost[start] = 0;
+
+        PriorityQueue<Node> pq = new PriorityQueue<>();
+        pq.offer(new Node(start, 0));
+
+        boolean[] visited = new boolean[graph.size()];
+
+        while (!pq.isEmpty()) {
+            Node node = pq.poll();
+            int curV = node.getTo();
+            int curCost = node.getWeight();
+            if (visited[curV]) {
+                continue;
+            }
+            visited[curV] = true;
+
+            for (Node nextNode : graph.get(curV)) {
+                int nextV = nextNode.getTo();
+                int nextCost = curCost + nextNode.getWeight();
+                if (nextCost > cost[nextV]) {
+                    continue;
+                }
+                cost[nextV] = nextCost;
+                pq.offer(new Node(nextV, nextCost));
+            }
+        }
+
+        return cost;
+    }
 }
 ```
 
