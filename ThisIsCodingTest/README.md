@@ -50,6 +50,8 @@
 ### [Chapter 10. 그래프 이론](Chapter10/README.md)
 
 - [팀 결성](chapter10/팀_결성.md)
+- [도시 분할 계획](chapter10/도시_분할_계획.md)
+- [커리큘럼](chapter10/커리큘럼.md)
 
 ## PART 03 알고리즘 유형별 기출문제
 
