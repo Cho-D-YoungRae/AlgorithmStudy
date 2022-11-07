@@ -44,6 +44,13 @@
 
 ### [Chapter 09. 최단 경로](Chapter9/README.md)
 
+- [미래도시](Chapter9/미래_도시.md)
+- [전보](Chapter9/전보.md)
+
+### [Chapter 10. 그래프 이론](Chapter10/README.md)
+
+- [팀 결성](chapter10/팀_결성.md)
+
 ## PART 03 알고리즘 유형별 기출문제
 
 - [Chapter 11. 그리디 문제](Chapter11.md)
