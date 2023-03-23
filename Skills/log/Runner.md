@@ -7,9 +7,9 @@ rev = None  # 중간 앞 부분을 반대로 연결시킨다.
 slow = fast = head  # head 는 연결 리스트의 head
 
 while fast and fast.next:
-    fast = fast.next.next
-    rev, rev.next, slow = slow, rev, slow.next
+fast = fast.next.next
+rev, rev.next, slow = slow, rev, slow.next
 
 if fast:
-    slow = slow.next
+slow = slow.next
 ```
