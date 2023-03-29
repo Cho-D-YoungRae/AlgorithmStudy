@@ -1,7 +1,5 @@
 # Algorithm
 
-> [노션](https://guiltless-alder-59f.notion.site/Algorithm-85a709ea8513487784a13278fcf28265)으로 이동
-
 - `\*` : 다시 보기
 - `\#` : 오답
 
