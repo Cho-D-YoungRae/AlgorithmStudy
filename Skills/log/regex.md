@@ -1,5 +1,32 @@
-# 정규표현식
+b# 정규표현식
+
+|정규표현식|내용|예시|
+|---|---|---|
+|.|갷행 문자를 제외한 아무 문자|.nd -> and, end, cnd, nnd, ...|
+|\[abc]|a, b, c 중 아무것이나|\[ae]nd -> and, end|
+|\[^abc]|a, b, c 를 제외하고|\[^ae]nd -> cnd, nnd, ...|
+|\[a-g]|a, g 사이의 문자들 </br>\[0-9] -> 모든 숫자 </br>\[a-z] -> 모든 소문자 </br>\[A-Z] -> 모든 대문자|\[1-9]\[0-9] -> 10, 25, 88, 99, ... </br>\[A-Z]\[a-z] -> An, By, Hi, ...|
+|a\*|a 0개 이상|1\[0-9]\* -> 1, 10, 164, 1810, ...|
+|a+|a 1개 이상|1\[0-9]+ -> 10, 164, 1810, ...|
+|a?|a 0개 또는 1개|1\[0-9]? -> 1, 11, 15, 19, ...|
+|a{5}|a 5개|\[a-c]{5} -> aaa, aab, aac, aba, abb, ..., ccb, ccc|
+|a{2,}|a 2개 이상|\[a-c]{3, } -> a, aa, ab, ac, aaa, ..., ccc|
+|a{2, 4}|a 2개 이상 4개 이하|\[a-c]{2, 3} -> aa, ab, ac, aaa, ..., ccc|
+|ab\|cd|ab 또는 cd|일\|하나\|한 -> 일, 하나, 한, ...|
+|^a|문자열의 처음 문자가 a||
+|a$|문자열의 마지막 문자가 a||
+|\\ | 사전 정의된 문자를 표현하는 이스케이프 시퀀스|\\. -> . </br>\\+ -> +|
+
+## 정규 표현식 관련 메서드 (Java String)
+
+|메서드|반환형|내용|
+|---|---|---|
+|replaceAll(String regex, String replacement)|String|전달받은 정규푷션식에 매칭되는 패턴을 모두 replacement로 치환|
+|matches(String regex)|boolean|문자열이 전달받은 정규표현식에 매칭되는지 여부를 반환|
+|split(String regex)|String\[]|전달받은 정규표현식에 매칭되는 패턴을 기준으로 원본 문자열을 잘라서 반환|
+
+## 참고
 
 - [https://www.youtube.com/watch?v=t3M6toIflyQ](https://www.youtube.com/watch?v=t3M6toIflyQ)
-
-[https://github.com/dream-ellie/regex](https://github.com/dream-ellie/regex)
+- [https://github.com/dream-ellie/regex](https://github.com/dream-ellie/regex)
+- 프로그래머스 코딩테스트 문제 풀이 전략 144pg
