@@ -22,6 +22,7 @@
     2. 입력  값 중 가장 작을 때
     3. 배열은 인덱스 범위 끝부분
     4. 배열 인덱스 연속시켜보고
+    5. [프로그래머스 배열관련 테스트케이스 만들기](https://school.programmers.co.kr/learn/courses/14743/lessons/118838)
 9. overflow 주의
     1. Integer.MAX_VALUE + 1 을 하면 음수가 나옴
 
