@@ -51,3 +51,4 @@
 - [재귀](./log/재귀.md)
 - [DFS/BFS](./log/dfs_bfs.md)
 - [트리](./log/tree.md)
+- [이진 탐색](./log/이진_탐색.md)
