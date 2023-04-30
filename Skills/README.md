@@ -52,3 +52,4 @@
 - [DFS/BFS](./log/dfs_bfs.md)
 - [트리](./log/tree.md)
 - [이진 탐색](./log/이진_탐색.md)
+- [유니온 파인드](./log/유니온_파인드.md)
