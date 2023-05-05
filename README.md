@@ -12,10 +12,10 @@
 
 ## [Skills](Skills/README.md)
 
-## [leetcode](./leetcode)
+## [leetcode](./leetcode/README.md)
 
-## [programmers](./programmers)
+## [programmers](./programmers/README.md)
 
-## [BAEKJOON](./BAEKJOON)
+## [BAEKJOON](./BAEKJOON/README.md)
 
-## [이것이 코딩 테스트다](./ThisIsCodingTest)
+## [이것이 코딩 테스트다](./ThisIsCodingTest/README.md)
