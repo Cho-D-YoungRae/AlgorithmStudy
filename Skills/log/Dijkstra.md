@@ -11,6 +11,58 @@
 - 최단 거리를 계산
 - 음의 무게를 가진 간선에 대해 작동하지 않는다
 
+## Java 구현
+
+```java
+import java.util.*;
+
+class Node implements Comparable<Node> {
+
+    public final int index;
+
+    public final int distance;
+
+    public Node(int index, int distance) {
+        this.index = index;
+        this.distance = distance;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return Integer.compare(this.distance, o.distance);
+    }
+}
+
+public class Main {
+
+    // 그래프의 각 i 번째 리스트에는 다른 노드로 향하는 노드들이 들어있음
+    public static int[] dijkstra(List<List<Node>> graph, int start) {
+        int[] costs = new int[graph.size() + 1];
+        Arrays.fill(costs, Integer.MAX_VALUE);
+
+        PriorityQueue<Node> pq = new PriorityQueue<>();
+        pq.offer(new Node(start, 0));
+
+        while (!pq.isEmpty()) {
+            Node cur = pq.poll();
+            if (costs[cur.index] <= node.getDistance()) {
+                continue;
+            }
+
+            for (Node next : graph.get(curIdx)) {
+                int nextCost = costs[cur.index] + next.distance;
+                if (nextCost >= costs[next.index]) {
+                    continue;
+                }
+                pq.offer(new Node(next.index, nextCost));
+            }
+        }
+
+        return costs;
+    }
+}
+```
+
 ## 의사 코드
 
 ```
@@ -100,6 +152,8 @@ public class Main {
     * 위 다익스트라 메서드가 메모리 초과 날 때 아래 메서드를 사용하니 해결되었음 
     * 다익스트라 메서드 내에서 visited 배열을 사용하지 않을 경우
     * Node 의 distance (weight) 가 같은 경우에 대해서 중복이 허용됨
+    * * cost 배열만 사용해서도 위 문제를 해결할 수 있는데 cost 비교를 <, > 로 하지 않고
+    * * <=, => 로 하면 같을 때는 방문했을 때로 보기 떄문에 중복을 방지할 수 있음
     */
     public static int[] dijkstra_UsingVisitedArr(List<List<Node>> graph, int start) {
         int[] cost = new int[graph.size()];
