@@ -3,6 +3,10 @@
 > `\*` : 다시 보기  
 > `\#` : 오답
 
+1. 문제 이해하기
+2. 생각하기
+3. 테스트케이스
+
 - [Skills](Skills/README.md)
 - [leetcode](./leetcode/README.md)
 - [programmers](./programmers/README.md)
