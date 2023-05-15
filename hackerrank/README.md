@@ -5,3 +5,4 @@
 |[Solve Me First](./log/Solve%20Me%20First.md)||||
 |[Flatland Space Stations](./log/Flatland%20Space%20Stations.md)||||
 |[Super Reduced String](./log/Super%20Reduced%20String.md)||\*||
+|[Two Characters](./log/Two%20Characters.md)||||
