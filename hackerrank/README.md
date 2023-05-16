@@ -6,3 +6,4 @@
 |[Flatland Space Stations](./log/Flatland%20Space%20Stations.md)||||
 |[Super Reduced String](./log/Super%20Reduced%20String.md)||\*||
 |[Two Characters](./log/Two%20Characters.md)||||
+|[Weighted Uniform Strings](./log/Weighted%20Uniform%20Strings.md)||||
