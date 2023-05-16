@@ -8,3 +8,4 @@
 |[Two Characters](./log/Two%20Characters.md)||||
 |[Weighted Uniform Strings](./log/Weighted%20Uniform%20Strings.md)||||
 |[Ice Cream Parlor](./log/Ice%20Cream%20Parlor.md)||||
+|[Beautiful Pairs](./log/Beautiful%20Pairs.md)||||
