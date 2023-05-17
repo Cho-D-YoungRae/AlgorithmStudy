@@ -10,3 +10,4 @@
 |[Ice Cream Parlor](./log/Ice%20Cream%20Parlor.md)||||
 |[Beautiful Pairs](./log/Beautiful%20Pairs.md)||||
 |[Sparse Arrays](./log/Sparse%20Arrays.md)||||
+|[Forming a Magic Square](./log/Forming%20a%20Magic%20Square.md)||||
