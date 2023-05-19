@@ -11,3 +11,4 @@
 |[Beautiful Pairs](./log/Beautiful%20Pairs.md)||||
 |[Sparse Arrays](./log/Sparse%20Arrays.md)||||
 |[Forming a Magic Square](./log/Forming%20a%20Magic%20Square.md)||||
+|[Climbing the Leaderboard](./log/Climbing%20the%20Leaderboard.md)||||
