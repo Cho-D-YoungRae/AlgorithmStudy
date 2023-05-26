@@ -5,3 +5,7 @@
 ## Contents
 
 ### [Chapter 06. 재귀 호출과 완전 탐색](./chapter06/README.md)
+
+|제목|비고|오답|체크|
+|---|---|---|---|
+|[소풍](./chapter06/PICNIC.md)||||
