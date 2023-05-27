@@ -10,3 +10,4 @@
 |---|---|---|---|
 |[소풍](./chapter06/PICNIC.md)||||
 |[게임판 덮기](./chapter06/BOARDCOVER.md)||\#|[ ]|
+|[시계 맞추기](./chapter06/CLOCKSYNC.md)||\#|[ ]|
