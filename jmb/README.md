@@ -4,7 +4,7 @@
 
 ## Contents
 
-### [Chapter 06. 재귀 호출과 완전 탐색](./chapter06/README.md)
+### [Chapter 06. 무식하게 풀기](./chapter06/README.md)
 
 |제목|비고|오답|체크|
 |---|---|---|---|
