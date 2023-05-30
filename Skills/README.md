@@ -26,6 +26,7 @@
     5. [프로그래머스 배열관련 테스트케이스 만들기](https://school.programmers.co.kr/learn/courses/14743/lessons/118838)
 9. overflow 주의
     1. Integer.MAX_VALUE + 1 을 하면 음수가 나옴
+10. N이 작다면 전체 탐색을 많이 해볼 수 있음. 전체 탐색으로 로직을 더 쉽게 할 수 있음
 
 ## 문제풀이 기술
 
