@@ -96,7 +96,7 @@
 - [징검다리](./solution/43236.md)
 - [순위](./solution/49191.md)
 - [방의 개수](./solution/49190.md)
-- [길찾기 게임](./solution/42892.md)
+- [길 찾기 게임](./solution/42892.md)
 - [달리기 경주](./solution/178871.md)
 - [추억 점수](./solution/176963.md)
 - [이중우선순위큐](./solution/42628.md)
@@ -118,6 +118,14 @@
 - [PCCP 모의고사 2 2. 신입사원 교육](./solution/121688.md)
 - [PCCP 모의고사 2 3. 카페 확장](./solution/121689.md)
 - [PCCP 모의고사 2 4. 보물 지도](./solution/121690.md)
+- [가장 많이 받은 선물](./solution/258712.md)
+- [n + 1 카드게임](./solution/258707.md)
+- [도둑질](./solution/42897.md)
+- [산 모양 타일링](./solution/258705.md)
+- [개인정보 수집 유효기간](./solution/150370.md)
+- [택배 배달과 수거하기](./solution/150369.md)
+- [이모티콘 할인행사](./solution/150368.md)
+- [표현 가능한 이진트리](./solution/150367.md)
 
 ## SQL
 
