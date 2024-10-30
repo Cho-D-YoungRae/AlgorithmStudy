@@ -5,3 +5,4 @@
 - [시계 맞추기](./solution/CLOCKSYNC.md)
 - [쿼드 트리 뒤집기](./solution/QUADTREE.md)
 - [외발 뛰기](./solution/JUMPGAME.md)
+- [Wildcard](./solution/WILDCARD.md)
