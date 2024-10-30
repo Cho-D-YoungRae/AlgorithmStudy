@@ -6,3 +6,4 @@
 - [쿼드 트리 뒤집기](./solution/QUADTREE.md)
 - [외발 뛰기](./solution/JUMPGAME.md)
 - [Wildcard](./solution/WILDCARD.md)
+- [삼각형 위의 최대 경로](./solution/TRIANGLEPATH.md)
