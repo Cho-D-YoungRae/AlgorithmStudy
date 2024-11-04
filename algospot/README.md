@@ -7,3 +7,4 @@
 - [외발 뛰기](./solution/JUMPGAME.md)
 - [Wildcard](./solution/WILDCARD.md)
 - [삼각형 위의 최대 경로](./solution/TRIANGLEPATH.md)
+- [원주율 외우기](./solution/PI.md)
