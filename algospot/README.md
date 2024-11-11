@@ -12,3 +12,4 @@
 - [삼각형 위의 최대 경로 수 세기](./solution/TRIPATHCNT.md)
 - [비대칭 타일링](./solution/ASYMTILING.md)
 - [두니발 박사의 탈옥](./solution/NUMB3RS.md)
+- [Longest Increasing Sequence](./solution/LIS.md)
