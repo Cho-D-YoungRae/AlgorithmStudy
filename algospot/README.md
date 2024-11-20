@@ -15,3 +15,4 @@
 - [Longest Increasing Sequence](./solution/LIS.md)
 - [조세푸스 문제](./solution/JOSEPHUS.md)
 - [Mismatched Brackets](./solution/BRACKETS2.md)
+- [외계 신호 분석](./solution/ITES.md)
