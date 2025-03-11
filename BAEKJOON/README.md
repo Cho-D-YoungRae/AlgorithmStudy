@@ -63,3 +63,4 @@
 - [모든 순열](./solution/10974.md)
 - [감시](./solution/15683.md)
 - [소수의 연속합](./solution/1644.md)
+- [회의실 배정](./solution/1931.md)
