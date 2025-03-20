@@ -129,6 +129,7 @@
 - [야근 지수](./solution/12927.md)
 - [최고의 집합](./solution/12938.md)
 - [숫자 게임](./solution/12987.md)
+- [징검다리 건너기](./solution/64062.md)
 
 ## SQL
 
