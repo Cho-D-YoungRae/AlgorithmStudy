@@ -128,6 +128,7 @@
 - [표현 가능한 이진트리](./solution/150367.md)
 - [야근 지수](./solution/12927.md)
 - [최고의 집합](./solution/12938.md)
+- [숫자 게임](./solution/12987.md)
 
 ## SQL
 
