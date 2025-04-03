@@ -68,3 +68,4 @@
 - [테트로미노](./solution/14500.md)
 - [N과 M (2)](./solution/15650.md)
 - [N과 M (4)](./solution/15652.md)
+- [N과 M (5)](./solution/15654.md)
