@@ -72,3 +72,4 @@
 - [가장 긴 증가하는 부분 수열](./solution/11053.md)
 - [트리의 부모 찾기](./solution/11725.md)
 - [N과 M (9)](./solution/15663.md)
+- [N과 M (12)](./solution/15666.md)
