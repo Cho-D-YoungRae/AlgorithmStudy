@@ -67,3 +67,4 @@
 - [로봇 청소기](./solution/14503.md)
 - [테트로미노](./solution/14500.md)
 - [N과 M (2)](./solution/15650.md)
+- [N과 M (4)](./solution/15652.md)
