@@ -69,3 +69,4 @@
 - [N과 M (2)](./solution/15650.md)
 - [N과 M (4)](./solution/15652.md)
 - [N과 M (5)](./solution/15654.md)
+- [가장 긴 증가하는 부분 수열](./solution/11053.md)
