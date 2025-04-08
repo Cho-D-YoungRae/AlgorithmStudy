@@ -78,3 +78,4 @@
 - [내려가기](./solution/2096.md)
 - [파이프 옮기기 1](./solution/17070.md)
 - [톱니바퀴](./solution/14891.md)
+- [빙산](./solution/2573.md)
