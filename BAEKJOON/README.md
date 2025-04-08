@@ -79,3 +79,4 @@
 - [파이프 옮기기 1](./solution/17070.md)
 - [톱니바퀴](./solution/14891.md)
 - [빙산](./solution/2573.md)
+- [강의실 배정](./solution/11000.md)
