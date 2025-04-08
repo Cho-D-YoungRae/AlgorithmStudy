@@ -80,3 +80,4 @@
 - [톱니바퀴](./solution/14891.md)
 - [빙산](./solution/2573.md)
 - [강의실 배정](./solution/11000.md)
+- [특정한 최단 경로](./solution/1504.md)
