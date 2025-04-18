@@ -73,3 +73,4 @@
 - [225. Implement Stack using Queues](./solution/225.md)
 - [622. Design Circular Queue](./solution/622.md)
 - [6. Zigzag Conversion](./solution/6.md)
+- [38. Count and Say](./solution/38.md)
