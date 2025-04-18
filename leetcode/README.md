@@ -75,3 +75,4 @@
 - [6. Zigzag Conversion](./solution/6.md)
 - [38. Count and Say](./solution/38.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
+- [1975. Maximum Matrix Sum](./solution/1975.md)
