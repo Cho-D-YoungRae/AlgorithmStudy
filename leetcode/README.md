@@ -79,3 +79,4 @@
 - [1267. Count Servers that Communicate](./solution/1267.md)
 - [1462. Course Schedule IV](./solution/1462.md)
 - [515. Find Largest Value in Each Tree Row](./solution/515.md)
+- [2563. Count the Number of Fair Pairs](./solution/2563.md)
