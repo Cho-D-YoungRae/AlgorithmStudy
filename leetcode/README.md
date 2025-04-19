@@ -81,3 +81,4 @@
 - [515. Find Largest Value in Each Tree Row](./solution/515.md)
 - [2563. Count the Number of Fair Pairs](./solution/2563.md)
 - [1315. Sum of Nodes with Even-Valued Grandparent](./solution/1315.md)
+- [841. Keys and Rooms](./solution/841.md)
