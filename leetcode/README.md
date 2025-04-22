@@ -82,3 +82,4 @@
 - [2563. Count the Number of Fair Pairs](./solution/2563.md)
 - [1315. Sum of Nodes with Even-Valued Grandparent](./solution/1315.md)
 - [841. Keys and Rooms](./solution/841.md)
+- [2593. Find Score of an Array After Marking All Elements](./solution/2593.md)
