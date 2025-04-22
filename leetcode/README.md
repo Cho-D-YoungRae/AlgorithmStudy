@@ -85,3 +85,4 @@
 - [2593. Find Score of an Array After Marking All Elements](./solution/2593.md)
 - [1685. Sum of Absolute Differences in a Sorted Array](./solution/1685.md)
 - [1405. Longest Happy String](./solution/1405.md)
+- [537. Complex Number Multiplication](./solution/537.md)
