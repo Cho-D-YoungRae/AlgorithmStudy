@@ -90,3 +90,4 @@
 - [1208. Get Equal Substrings Within Budget](./solution/1208.md)
 - [1670. Design Front Middle Back Queue](./solution/1670.md)
 - [98. Validate Binary Search Tree](./solution/98.md)
+- [1497. Check If Array Pairs Are Divisible by k](./solution/1497.md)
