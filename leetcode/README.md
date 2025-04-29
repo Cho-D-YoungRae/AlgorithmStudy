@@ -91,3 +91,4 @@
 - [1670. Design Front Middle Back Queue](./solution/1670.md)
 - [98. Validate Binary Search Tree](./solution/98.md)
 - [1497. Check If Array Pairs Are Divisible by k](./solution/1497.md)
+- [2734. Lexicographically Smallest String After Substring Operation](./solution/2743.md)
