@@ -92,3 +92,4 @@
 - [2563. Count the Number of Fair Pairs](./solution/2563.md)
 - [2593. Find Score of an Array After Marking All Elements](./solution/2593.md)
 - [2734. Lexicographically Smallest String After Substring Operation](./solution/2734.md)
+- [2998. Minimum Number of Operations to Make X and Y Equal](./solution/2998.md)
