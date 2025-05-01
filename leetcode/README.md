@@ -74,6 +74,7 @@
 - [938. Range Sum of BST](./solution/938.md)
 - [973. K Closest Points to Origin](./solution/973.md)
 - [1038. Binary Search Tree to Greater Sum Tree](./solution/1038.md)
+- [1042. Flower Planting With No Adjacent](./solution/1042.md)
 - [1208. Get Equal Substrings Within Budget](./solution/1208.md)
 - [1267. Count Servers that Communicate](./solution/1267.md)
 - [1315. Sum of Nodes with Even-Valued Grandparent](./solution/1315.md)
