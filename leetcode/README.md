@@ -86,6 +86,7 @@
 - [1975. Maximum Matrix Sum](./solution/1975.md)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](./solution/2096.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
+- [2559. Count Vowel Strings in Ranges](./solution/2559.md)
 - [2563. Count the Number of Fair Pairs](./solution/2563.md)
 - [2593. Find Score of an Array After Marking All Elements](./solution/2593.md)
 - [2734. Lexicographically Smallest String After Substring Operation](./solution/2734.md)
