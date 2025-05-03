@@ -55,6 +55,7 @@
 - [349. Intersection of Two Arrays](./solution/349.md)
 - [406. Queue Reconstruction by Height](./solution/406.md)
 - [424. Longest Repeating Character Replacement](./solution/424.md)
+- [442. Find All Duplicates in an Array](./solution/442.md)
 - [455. Assign Cookies](./solution/455.md)
 - [515. Find Largest Value in Each Tree Row](./solution/515.md)
 - [537. Complex Number Multiplication](./solution/537.md)
