@@ -88,6 +88,7 @@
 - [1975. Maximum Matrix Sum](./solution/1975.md)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](./solution/2096.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
+- [2165. Smallest Value of the Rearranged Number](./solution/2165.md)
 - [2410. Maximum Matching of Players With Trainers](./solution/2410.md)
 - [2482. Difference Between Ones and Zeros in Row and Column](./solution/2482.md)
 - [2559. Count Vowel Strings in Ranges](./solution/2559.md)
