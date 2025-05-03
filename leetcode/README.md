@@ -72,6 +72,7 @@
 - [841. Keys and Rooms](./solution/841.md)
 - [937. Reorder Data in solution Files](./solution/937.md)
 - [938. Range Sum of BST](./solution/938.md)
+- [959. Regions Cut By Slashes](./solution/959.md)
 - [973. K Closest Points to Origin](./solution/973.md)
 - [994. Rotting Oranges](./solution/994.md)
 - [1038. Binary Search Tree to Greater Sum Tree](./solution/1038.md)
