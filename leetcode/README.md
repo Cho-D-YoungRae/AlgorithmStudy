@@ -76,6 +76,7 @@
 - [959. Regions Cut By Slashes](./solution/959.md)
 - [973. K Closest Points to Origin](./solution/973.md)
 - [994. Rotting Oranges](./solution/994.md)
+- [1026. Maximum Difference Between Node and Ancestor](./solution/1026.md)
 - [1038. Binary Search Tree to Greater Sum Tree](./solution/1038.md)
 - [1042. Flower Planting With No Adjacent](./solution/1042.md)
 - [1208. Get Equal Substrings Within Budget](./solution/1208.md)
