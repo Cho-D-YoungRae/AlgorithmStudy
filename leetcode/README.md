@@ -63,6 +63,7 @@
 - [561. Array Partition I](./solution/561.md)
 - [617. Merge Two Binary Trees](./solution/617.md)
 - [622. Design Circular Queue](./solution/622.md)
+- [624. Maximum Distance in Arrays](./solution/624.md)
 - [687. Longest Univalue Path](./solution/687.md)
 - [739. Daily Temperatures](./solution/739.md)
 - [743. Network Delay Time](./solution/743.md)
