@@ -91,6 +91,7 @@
 - [1685. Sum of Absolute Differences in a Sorted Array](./solution/1685.md)
 - [1975. Maximum Matrix Sum](./solution/1975.md)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](./solution/2096.md)
+- [2101. Detonate the Maximum Bombs](./solution/2101.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
 - [2165. Smallest Value of the Rearranged Number](./solution/2165.md)
 - [2410. Maximum Matching of Players With Trainers](./solution/2410.md)
