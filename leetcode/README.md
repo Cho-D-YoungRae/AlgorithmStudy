@@ -14,6 +14,7 @@
 - [38. Count and Say](./solution/38.md)
 - [39. Combination Sum](./solution/39.md)
 - [42. Trapping Rain Water](./solution/42.md)
+- [45. Jump Game II](./solution/45.md)
 - [46. Permutations](./solution/46.md)
 - [49. Group Anagrams](./solution/49.md)
 - [56. Merge Intervals](./solution/56.md)
