@@ -84,6 +84,7 @@
 - [1267. Count Servers that Communicate](./solution/1267.md)
 - [1315. Sum of Nodes with Even-Valued Grandparent](./solution/1315.md)
 - [1347. Minimum Number of Steps to Make Two Strings Anagram](./solution/1347.md)
+- [1388. Pizza With 3n Slices](./solution/1388.md)
 - [1405. Longest Happy String](./solution/1405.md)
 - [1462. Course Schedule IV](./solution/1462.md)
 - [1497. Check If Array Pairs Are Divisible by k](./solution/1497.md)
