@@ -76,6 +76,7 @@
 - [938. Range Sum of BST](./solution/938.md)
 - [959. Regions Cut By Slashes](./solution/959.md)
 - [973. K Closest Points to Origin](./solution/973.md)
+- [978. Longest Turbulent Subarray](./solution/978.md)
 - [994. Rotting Oranges](./solution/994.md)
 - [1026. Maximum Difference Between Node and Ancestor](./solution/1026.md)
 - [1038. Binary Search Tree to Greater Sum Tree](./solution/1038.md)
