@@ -90,6 +90,7 @@
 - [1405. Longest Happy String](./solution/1405.md)
 - [1462. Course Schedule IV](./solution/1462.md)
 - [1497. Check If Array Pairs Are Divisible by k](./solution/1497.md)
+- [1631. Path With Minimum Effort](./solution/1631.md)
 - [1670. Design Front Middle Back Queue](./solution/1670.md)
 - [1685. Sum of Absolute Differences in a Sorted Array](./solution/1685.md)
 - [1975. Maximum Matrix Sum](./solution/1975.md)
