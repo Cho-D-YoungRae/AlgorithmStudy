@@ -39,6 +39,7 @@
 - [상수](./solution/2908.md)
 - [음계](./solution/2920.md)
 - [뱀](./solution/3190.md)
+- [사탕 가게](./solution/4781.md)
 - [토마토](./solution/7569.md)
 - [토마토](./solution/7576.md)
 - [동전](./solution/9084.md)
