@@ -45,6 +45,7 @@
 - [사탕 가게](./solution/4781.md)
 - [토마토](./solution/7569.md)
 - [토마토](./solution/7576.md)
+- [앱](./solution/7579.md)
 - [동전](./solution/9084.md)
 - [LCS](./solution/9251.md)
 - [스티커](./solution/9465.md)
