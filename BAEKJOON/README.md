@@ -31,6 +31,7 @@
 - [공유기 설치](./solution/2110.md)
 - [벽 부수고 이동하기](./solution/2206.md)
 - [줄 세우기](./solution/2252.md)
+- [동전](./solution/2293.md)
 - [동전 2](./solution/2294.md)
 - [별 찍기 - 10](./solution/2447.md)
 - [검증수](./solution/2475.md)
