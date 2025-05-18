@@ -4,6 +4,7 @@
 - [유기농 배추](./solution/1012.md)
 - [체스판 다시 칠하기](./solution/1018.md)
 - [한수](./solution/1065.md)
+- [호텔](./solution/1106.md)
 - [RGB거리](./solution/1149.md)
 - [단어 공부](./solution/1157.md)
 - [단어 정렬](./solution/1181.md)
