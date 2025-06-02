@@ -98,6 +98,7 @@
 - [2101. Detonate the Maximum Bombs](./solution/2101.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
 - [2165. Smallest Value of the Rearranged Number](./solution/2165.md)
+- [2225. Find Players With Zero or One Losses](./solution/2225.md)
 - [2410. Maximum Matching of Players With Trainers](./solution/2410.md)
 - [2482. Difference Between Ones and Zeros in Row and Column](./solution/2482.md)
 - [2559. Count Vowel Strings in Ranges](./solution/2559.md)
