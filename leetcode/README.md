@@ -94,6 +94,7 @@
 - [1670. Design Front Middle Back Queue](./solution/1670.md)
 - [1685. Sum of Absolute Differences in a Sorted Array](./solution/1685.md)
 - [1975. Maximum Matrix Sum](./solution/1975.md)
+- [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](./solution/2058.md)
 - [2096. Step-By-Step Directions From a Binary Tree Node to Another](./solution/2096.md)
 - [2101. Detonate the Maximum Bombs](./solution/2101.md)
 - [2161. Partition Array According to Given Pivot](./solution/2161.md)
