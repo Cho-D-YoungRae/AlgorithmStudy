@@ -145,6 +145,7 @@
 - [PCCP 모의고사 2 2. 신입사원 교육](./solution/121688.md)
 - [PCCP 모의고사 2 3. 카페 확장](./solution/121689.md)
 - [PCCP 모의고사 2 4. 보물 지도](./solution/121690.md)
+- [콜라 문제](./solution/132267.md)
 - [개인정보 수집 유효기간](./solution/150370.md)
 - [표현 가능한 이진트리](./solution/150367.md)
 - [이모티콘 할인행사](./solution/150368.md)
