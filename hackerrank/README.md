@@ -1,15 +1,14 @@
 # [HackerRank](https://www.hackerrank.com/dashboard)
 
-|제목|비고|오답|체크|
-|---|---|---|---|
-|[Solve Me First](./log/Solve%20Me%20First.md)||||
-|[Flatland Space Stations](./log/Flatland%20Space%20Stations.md)||||
-|[Super Reduced String](./log/Super%20Reduced%20String.md)||\*||
-|[Two Characters](./log/Two%20Characters.md)||||
-|[Weighted Uniform Strings](./log/Weighted%20Uniform%20Strings.md)||||
-|[Ice Cream Parlor](./log/Ice%20Cream%20Parlor.md)||||
-|[Beautiful Pairs](./log/Beautiful%20Pairs.md)||||
-|[Sparse Arrays](./log/Sparse%20Arrays.md)||||
-|[Forming a Magic Square](./log/Forming%20a%20Magic%20Square.md)||||
-|[Climbing the Leaderboard](./log/Climbing%20the%20Leaderboard.md)||||
-|[Extra Long Factorials](./log/Extra%20Long%20Factorials.md)||||
+- [Solve Me First](./log/Solve%20Me%20First.md)
+- [Flatland Space Stations](./log/Flatland%20Space%20Stations.md)
+- [Super Reduced String](./log/Super%20Reduced%20String.md)
+- [Two Characters](./log/Two%20Characters.md)
+- [Weighted Uniform Strings](./log/Weighted%20Uniform%20Strings.md)
+- [Ice Cream Parlor](./log/Ice%20Cream%20Parlor.md)
+- [Beautiful Pairs](./log/Beautiful%20Pairs.md)
+- [Sparse Arrays](./log/Sparse%20Arrays.md)
+- [Forming a Magic Square](./log/Forming%20a%20Magic%20Square.md)
+- [Climbing the Leaderboard](./log/Climbing%20the%20Leaderboard.md)
+- [Extra Long Factorials](./log/Extra%20Long%20Factorials.md)
+- [Non-Divisible Subset](./log/non-divisible-subset.md)
