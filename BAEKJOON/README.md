@@ -33,6 +33,7 @@
 - [내려가기](./solution/2096.md)
 - [공유기 설치](./solution/2110.md)
 - [벽 부수고 이동하기](./solution/2206.md)
+- [합분해](./solution/2225.md)
 - [줄 세우기](./solution/2252.md)
 - [동전](./solution/2293.md)
 - [동전 2](./solution/2294.md)
