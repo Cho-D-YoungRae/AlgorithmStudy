@@ -21,6 +21,7 @@
 - [도시 분할 계획](./solution/1647.md)
 - [가운데를 말해요](./solution/1655.md)
 - [카드 정렬하기](./solution/1715.md)
+- [집합의 표현](./solution/1717.md)
 - [최단경로](./solution/1753.md)
 - [암호 만들기](./solution/1759.md)
 - [문제집](./solution/1766.md)
