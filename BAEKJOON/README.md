@@ -37,6 +37,7 @@
 - [줄 세우기](./solution/2252.md)
 - [동전](./solution/2293.md)
 - [동전 2](./solution/2294.md)
+- [두 용액](./solution/2470.md)
 - [별 찍기 - 10](./solution/2447.md)
 - [검증수](./solution/2475.md)
 - [탑](./solution/2493.md)
